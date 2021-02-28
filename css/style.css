@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+
+* {
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}	
+
+body{
+
+	background-image: url('https://www.smileexpo.com.ua/public/upload/news/geymer_bud_ekonomen_legalnie_sposobi_ne_pereplachivat_za_igr_15506584434425_image.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+header{
+text-align: center;
+background-color: #008080; 
+height: 60px;
+color:white;
+font-family:  sans-serif;
+font-weight: 900;
+margin-bottom:70px;
+
+}
+
+
+    footer {
+        background-color: #008080;
+        bottom: 0;
+        width: 100%;
+    }
+
+.content{
+	background-color: lightblue;
+	width: 80%;
+	margin: 0px auto;
+	padding: 10px;
+}
+.content h1{
+text-align: center;
+color: white;
+
+}
+.row{
+
+	display: flex;
+}
+.box p{
+
+font-family: 'DotGothic16', sans-serif;
+	font-size: 25px;
+}
+.box{
+background-color: #b8b3ff;
+margin: 10px;
+padding: 15px;
+flex-grow: 1;
+border-radius: 10px;
+font-family: 'Akaya Telivigala', cursive;
+}
+ img {
+max-height: 100%;
+max-width: 350px;
+border: 10px outset lightblue;
+border-radius: 20px;
+box-shadow: 10px 10px black;
+float: left;
+margin: 20px; }
+
+
+/*--------------------------------------------------------------------------------------------*/
+
+
+/*Стилі меню ---------------------------------------------------------------------------------*/
+
+
+ul {
+        list-style: none;
+        padding: 0;
+}
+.menu li {
+    display: inline-block;
+    padding: 25px;
+    color: black;
+
+    
+}
+
+.menu li:hover {
+    background-color: brown;
+    color: black;
+}
+
+.menu {
+font-family: 'DotGothic16', sans-serif;
+    box-shadow: 4px 5px 15px rgba(0, 0, 0, 0.5);
+    background-color: #00ffff;
+
+    margin-top:20px;
+}
+
